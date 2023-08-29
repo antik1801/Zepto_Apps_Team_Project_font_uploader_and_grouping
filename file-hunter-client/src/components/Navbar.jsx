@@ -15,7 +15,7 @@ const Navbar = () => {
 
   const handleToggle = e =>{
     if (e.target.checked) {
-        setTheme("dark");
+        setTheme("forest");
       } else {
         setTheme("light");
       }
@@ -64,7 +64,7 @@ const Navbar = () => {
 
   const navItemsRight = (
     <>
-      <label className="swap swap-rotate hover:text-purple-600 rounded-full">
+      <label className="swap swap-rotate hover:text-purple-600 rounded-full ">
         {/* this hidden checkbox controls the state */}
         <input type="checkbox"  checked={theme === "light" ? false : true}  onChange={(e)=>handleToggle(e)}/>
 
@@ -105,8 +105,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="bg-gray-100 font-sans w-full m-0">
-      <div className="bg-white shadow">
+    <div className=" font-sans w-full m-0">
+      <div className=" shadow">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
             <div className="cursor-pointer">

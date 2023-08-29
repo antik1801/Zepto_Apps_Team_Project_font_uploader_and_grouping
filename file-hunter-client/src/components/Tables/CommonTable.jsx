@@ -1,18 +1,19 @@
 import React from "react";
+import Tabletitle from "../../mini-components/texts/Tabletitle";
 
 const CommonTable = () => {
   return (
     <div>
-      <section class=" antialiased  text-gray-600  ">
+      <section class=" antialiased   ">
         <div class="h-full">
-          <div class="w-full  mx-auto bg-white shadow-lg rounded-sm border border-gray-200">
+          <div class="w-full  mx-auto shadow-lg rounded-sm border border-gray-200">
             <header class="px-5 py-4 border-b border-gray-100">
-              <h2 class="font-semibold text-gray-800">Customers</h2>
+              <Tabletitle text="Fonts"/>
             </header>
             <div class="p-3">
               <div class="overflow-x-auto">
                 <table class="table-auto w-full">
-                  <thead class="text-xs font-semibold uppercase text-gray-400 bg-gray-50">
+                  <thead class="text-xs font-semibold uppercase  ">
                     <tr>
                       <th class="p-2 whitespace-nowrap">
                         <div class="font-semibold text-left">Name</div>
@@ -41,7 +42,7 @@ const CommonTable = () => {
                               alt="Alex Shatov"
                             />
                           </div>
-                          <div class="font-medium text-gray-800">
+                          <div class="font-medium ">
                             Alex Shatov
                           </div>
                         </div>
@@ -70,7 +71,7 @@ const CommonTable = () => {
                               alt="Philip Harbach"
                             />
                           </div>
-                          <div class="font-medium text-gray-800">
+                          <div class="font-medium ">
                             Philip Harbach
                           </div>
                         </div>
@@ -99,7 +100,7 @@ const CommonTable = () => {
                               alt="Mirko Fisuk"
                             />
                           </div>
-                          <div class="font-medium text-gray-800">
+                          <div class="font-medium">
                             Mirko Fisuk
                           </div>
                         </div>
@@ -128,7 +129,7 @@ const CommonTable = () => {
                               alt="Olga Semklo"
                             />
                           </div>
-                          <div class="font-medium text-gray-800">
+                          <div class="font-medium ">
                             Olga Semklo
                           </div>
                         </div>
@@ -157,7 +158,7 @@ const CommonTable = () => {
                               alt="Burak Long"
                             />
                           </div>
-                          <div class="font-medium text-gray-800">
+                          <div class="font-medium ">
                             Burak Long
                           </div>
                         </div>
